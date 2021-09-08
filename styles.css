@@ -223,7 +223,6 @@ Sidebar
   transition: var(--transition);
 }
 .links a:hover {
-  background: #3d4775;
   color: #e57464;
   padding-left: 1.75rem;
 }
@@ -534,7 +533,6 @@ Sidebar
     transition: var(--transition);
   }
   .main-links a:hover {
-    background: #3d4775;
     color: #e57464;
     padding-left: 1.75rem;
   }
