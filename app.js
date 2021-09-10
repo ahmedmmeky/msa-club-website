@@ -8,7 +8,7 @@ let testimonials = [
   {
     id: 2,
     name: "Yasat Nayeem",
-    imgSrc: "https://i.ibb.co/cDbF89c/testimonial2.png",
+    imgSrc: "https://i.ibb.co/YbjJ6Jc/IMG-5339.jpg",
     text: "The MSA has been the highlight of my college experience. I have made the best memories and friendships that I intend to keep for a lifetime. The best part of the MSA is a judgment free zone and the welcoming environment to both Muslims and non-Muslims. The club also promotes unity among all Muslims regardless of background and also promoting unity among the interfaith community. The MSA has helped me be very comfortable in being a Muslim at PSU. The people I met were the most sincere and genuine people and for that I was able to enjoy my time at Penn State.",
   },
 ];
@@ -17,6 +17,19 @@ const menuButton = document.querySelector(".sidebar-toggle");
 const sideBar = document.querySelector(".sidebar");
 const closeBtn = document.querySelector(".close-btn");
 
+let personImage = document.querySelector(".person-image");
+let testimonialName = document.getElementById("testimonialName");
+let testimonialText = document.querySelector(".testimonial-text");
+
+let currentTestimonial = 0;
+
+const prevBtn = document.querySelector(".prev-btn");
+const nextBtn = document.querySelector(".next-btn");
+
+document.addEventListener("DOMContentLoaded", function () {
+  showTestimonial(currentTestimonial);
+});
+
 menuButton.addEventListener("click", function () {
   sideBar.classList.toggle("show-sidebar");
 });
@@ -24,3 +37,30 @@ menuButton.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
   sideBar.classList.remove("show-sidebar");
 });
+
+prevBtn.addEventListener("click", function () {
+  if (currentTestimonial === 0) {
+    currentTestimonial = testimonials.length - 1;
+    showTestimonial(currentTestimonial);
+  } else {
+    currentTestimonial--;
+    showTestimonial(currentTestimonial);
+  }
+});
+
+nextBtn.addEventListener("click", function () {
+  if (currentTestimonial === testimonials.length - 1) {
+    currentTestimonial = 0;
+    showTestimonial(currentTestimonial);
+  } else {
+    currentTestimonial++;
+    showTestimonial(currentTestimonial);
+  }
+});
+
+function showTestimonial(testimonialIndex) {
+  const testimonial = testimonials[testimonialIndex];
+  personImage.src = testimonial.imgSrc;
+  testimonialName.textContent = testimonial.name;
+  testimonialText.textContent = testimonial.text;
+}
