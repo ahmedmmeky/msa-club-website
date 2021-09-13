@@ -31,6 +31,8 @@ const contactLink = document.querySelector(".contact-link");
 const footer = document.querySelector(".footer");
 const headerHeight = header.getBoundingClientRect().height;
 
+const logoContainer = document.querySelector(".logo-container");
+
 let toggled;
 
 let currentTestimonial = 0;
@@ -42,8 +44,10 @@ window.addEventListener("scroll", function () {
 
     if (scrollHeight > headerHeight + 200) {
       header.classList.add("fixed-header");
+      logoContainer.classList.add("smaller-logo");
     } else {
       header.classList.remove("fixed-header");
+      logoContainer.classList.remove("smaller-logo");
     }
   }
 });
