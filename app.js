@@ -7,7 +7,7 @@ let testimonials = [
   },
   {
     id: 2,
-    name: "Yasaat Nayeem",
+    name: "Yaasat Nayeem",
     imgSrc: "https://i.ibb.co/YbjJ6Jc/IMG-5339.jpg",
     text: "The MSA has been the highlight of my college experience. I have made the best memories and friendships that I intend to keep for a lifetime. The best part of the MSA is a judgment free zone and the welcoming environment to both Muslims and non-Muslims. The club also promotes unity among all Muslims regardless of background and also promoting unity among the interfaith community. The MSA has helped me be very comfortable in being a Muslim at PSU. The people I met were the most sincere and genuine people and for that I was able to enjoy my time at Penn State.",
   },
