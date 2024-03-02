@@ -1,43 +1,43 @@
 let boardImages = [
   {
     id: 2,
-    imgSrc: "https://i.ibb.co/6Y0Wm28/PHOTO-2021-08-25-16-12-26.jpg",
+    imgSrc: "https://i.ibb.co/WHGwDFK/2.png",
   },
   {
     id: 3,
-    imgSrc: "https://i.ibb.co/Wxc53Hs/PHOTO-2021-08-25-16-12-27.jpg",
+    imgSrc: "https://i.ibb.co/z4pmVtC/3.png",
   },
   {
     id: 5,
-    imgSrc: "https://i.ibb.co/dfTYXfT/PHOTO-2021-08-25-16-12-28.jpg",
+    imgSrc: "https://i.ibb.co/y5M3GB2/4.png",
   },
   {
     id: 4,
-    imgSrc: "https://i.ibb.co/sCDXBg6/PHOTO-2021-08-25-16-12-28-2.jpg",
+    imgSrc: "https://i.ibb.co/DkFStyz/5.png",
   },
   {
     id: 6,
-    imgSrc: "https://i.ibb.co/7XqGs76/PHOTO-2021-08-25-16-12-29.jpg",
+    imgSrc: "https://i.ibb.co/6vwz1X9/6.png",
   },
   {
     id: 7,
-    imgSrc: "https://i.ibb.co/x8N5PBn/PHOTO-2021-08-25-16-12-29-2.jpg",
+    imgSrc: "https://i.ibb.co/VNYt7z0/7.png",
   },
   {
     id: 8,
-    imgSrc: "https://i.ibb.co/jHK85JP/PHOTO-2021-08-25-16-12-30.jpg",
+    imgSrc: "https://i.ibb.co/D1QqBFC/8.png",
   },
   {
     id: 9,
-    imgSrc: "https://i.ibb.co/QM0Q0YG/PHOTO-2021-08-25-16-12-30-2.jpg",
+    imgSrc: "https://i.ibb.co/GszmBrT/9.png",
   },
   {
     id: 10,
-    imgSrc: "https://i.ibb.co/4RZXHYv/PHOTO-2021-08-25-16-12-31.jpg",
+    imgSrc: "https://i.ibb.co/6BTk9vp/10.png",
   },
   {
     id: 11,
-    imgSrc: "https://i.ibb.co/vd0Gz7y/PHOTO-2021-08-25-16-12-31-2.jpg",
+    imgSrc: "https://i.ibb.co/nf4TnDx/11.png",
   },
 ];
 
